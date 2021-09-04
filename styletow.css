@@ -1,0 +1,295 @@
+body{
+
+
+    background-color:#EEEE;
+}
+ 
+
+
+
+
+
+.style{
+
+    background-color: #00b5ec;
+    height: 400px;
+    width: 1357px;
+    margin-left: 34px; padding: 30px;
+    
+}
+
+.pic{
+
+    height: 312px;
+    width: 25%;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid #edf0f1;
+    background-position: center;
+    margin-left: 40%;
+    margin-top: 33px;
+}
+
+
+.Bar{
+
+    margin-left: 34px;
+
+    
+    height: 29px;
+    width: 1418px;
+    background-color:#ffffff ;
+    
+}
+
+.barmenu{
+    margin-left:118px;
+    margin-top: 20px;
+}
+
+.firstitem{
+    margin-left: 40px;}
+
+    .divleft{
+
+        float: left;
+    }
+    
+
+    .highlight{
+
+        font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+
+
+    }
+    .PInfo{
+
+        font-weight: 550;
+    font-size: 15px;
+    }
+    .rowstyle{
+
+        font-size: 13px;
+    
+    color: gray;
+}
+    .divsub{
+
+        margin-left: 30px;
+    margin-top: 24px;
+    height: 275px;
+    width: 295px;
+    
+    border: 1px solid #E6ECF3;
+    background-color: #ffffff;
+}
+
+
+
+
+     .inside{
+        margin-top: 11px;
+        margin-left: 15px;
+    
+}
+     
+
+     .header{
+      
+        border-bottom: 3px solid #dee2e6;
+    margin-left: 0px;
+    
+    height: 33px;
+    width: 295px;
+    padding-top: 13px;
+
+}
+     .row{
+
+        margin-top: 10px;
+     }
+     .divsubtow{
+
+        
+    height: 137px;
+    width: 295px;
+    margin-top: 24px;
+    margin-left: 30px;
+    border: 1px solid #E6ECF3;
+    background-color:#ffffff;
+}
+      .divright{
+          float: left;
+      }
+      .divsubthree{
+
+        margin-left: 20px;
+    margin-top: 24px;
+    height: 216px;
+    border: solid;
+    width: 1100px;
+    border: 1px solid #E6ECF3;
+    background-color: #ffffff;
+    
+
+      }
+      .background{
+        background-color: #f2f2f2;
+    }
+      .headertow{
+        border-bottom: 3px solid #dee2e6;
+    padding: 7px;
+}
+
+.divfour{
+    width: 1100px;
+    margin-left: 20px;
+    height: 357px;
+    margin-top: 28px;
+    border: 1px solid #E6ECF3;
+    background-color:#ffffff ;
+}
+.progressbar {
+    background-color: #f5f5f5;
+    height: 20px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+      
+.textone{
+    margin-left: 10px;
+}
+.texttow{
+    margin-top: 19px;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.textthree{
+    margin-top: 19px;
+    margin-left: 10px;
+    
+    
+}
+.name{
+    margin-left: 683px;
+    margin-top: 3px;
+}
+.namestyle{
+    color: white;
+    font-weight: bold;
+}
+.ratio{
+    margin-left: 958px;
+}
+
+
+.divproject{
+    background-color: #ffffff;
+    margin-top: 47px;
+    margin-left: 35px;
+    width: 96%;
+}
+
+table {
+    margin-top: 7px;
+    margin-left: -3px;
+    width: 99.9%;
+    height: 2.3in;
+    border-top: 3px solid #ffffff;
+	border-bottom: 1px solid #E6ECF3;
+    padding-bottom: 17px;
+  }
+  
+  .th{
+    width: 23%;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#f5f5f5
+  }
+  tr:hover {
+      background-color: #F0F0F0;
+}
+th {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  td{
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .editpage{
+    margin-left: 33px;
+    width: 96%;
+    background-color: #ffffff;
+    margin-top: 47px;
+    border: 1px solid #E6ECF3;
+  }
+  
+  .TextConatiner{
+    margin-top: 5px;
+    width: 75%;
+    margin-left: 19px;
+
+  }
+
+
+
+
+  .texxtbox{
+    
+    width: 100%;
+    
+        height: 20px;
+        }
+
+        .texxtbox:focus{
+            border-color: #66afe9;
+            outline: 0;
+        }
+        
+        
+        .Diiv{
+
+            margin-top: 10px;
+            margin-left: 19px;
+            
+        }
+    .textstyle{
+        font-weight: bold;
+    }
+    .texxtboxAboutMe{
+    
+        width: 100%;
+        
+            height: 100px;
+            }
+    
+            .texxtboxAboutMe:focus{
+                border-color: #66afe9;
+                outline: 0;
+            }
+            
+            .divbutton{
+
+                margin-top:10px; margin-left: 19px;
+                border-color: #285e8e;
+            }
+
+
+            .savechange{
+
+                height: 29px;
+    width: 116px;
+    background-color: #3276b1;
+    color: white;
+
+            }
+        

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> profile  </title>
+    <link rel="stylesheet" href="styletow.css">
+
+
+    <script type="text/javascript">
+        function Toggle(value){
+        switch(value){
+        case 'aboutMe':
+        document.getElementById('aboutMe').style.display="block";
+        document.getElementById('Projects').style.display="none";
+        document.getElementById('Settins').style.display="none";
+        break;
+        case 'Projects':
+        document.getElementById('aboutMe').style.display="none";
+        document.getElementById('Projects').style.display="block";
+        document.getElementById('Settins').style.display="none";
+        break;
+        case 'Settins':
+        document.getElementById('aboutMe').style.display="none";
+        document.getElementById('Projects').style.display="none";
+        document.getElementById('Settins').style.display="block";
+        break;
+        }
+        }
+        
+        </script>
+
+</head>
+
+<body>
+    
+     <div>
+         <div class="style">
+
+     <img src = "avatar7.png" class="pic"> 
+     <div class="name"> <Span class="namestyle"> Jon Deon</Span></div>
+
+     </div>
+    </div>
+
+    <div class="Bar">
+        
+
+       <label  onclick="Toggle('aboutMe')"> ABOUTME  </label>  
+        <label  onclick="Toggle('Projects')"> PROJECTS</label>  
+      
+       <label  onclick="Toggle('Settins')"> SEETING </label>
+        
+    </div>
+
+
+    
+
+       
+            <div id="aboutMe">
+
+                <div class="divleft">
+            
+<div class="divsub">
+                <div class="header"> <span class="highlight"> Personal Information</span></div>
+                
+                <div class="inside">
+                    
+                 <div>  <label class="PInfo"> Full Name </label>
+                    <br/>
+                    <span class="rowstyle"> Jonathan Deo </span>
+                    </div>
+
+                  <div class="row"> <label class="PInfo"> Mobile </label>
+                    <br/>
+                    <span class="rowstyle"> (123) 123 1234 </span>
+                    </div>
+
+                   <div class="row"> <label class="PInfo"> Email </label>
+                    <br/>
+                    <span class="rowstyle"> Jonathandoe@moltran.com </span>
+                    </div>
+
+                    <div class="row"> <label class="PInfo"> Location </label>
+                        <br/>
+                        <span class="rowstyle"> USA </span>
+                        </div>
+                        </div>
+                    
+                    </div>
+                   
+                    <div class="divsubtow">
+                        
+                    <div class="header"> <span class="highlight"> Language </span></div>
+                    <div class="inside">
+                    <lu >
+                        <li class="rowstyle"> English</li>
+                        <li class="rowstyle"> French</li>
+                        <li class="rowstyle"> Greek</li>
+                        
+
+                    </lu>
+                    </div>
+                   </div>
+                </div>
+
+
+                    
+                    
+                    <div class="divright">
+                        <div class="divsubthree">
+                        
+                        <div class="headertow"> <span class="highlight">  Biography  </span></div>
+                        <div class="inside">
+                        <div class="textone"> <span>Lorem Ipsum is simply dummy text of the the printing and typesetting industry lorem ipsum has been the industry 
+                            standed dummy text eversince the 1500, when an unknown printer took a galley of type andspecinen book. it has survivednot only 
+                            five countries ,but also the leap into electronic typesetting , remaining essentially unchnged.
+                           </span></div>
+                           <div class="texttow"> <spn> But also the leap into electroinic typesetting, remaining essentially unchnged</spn></div>
+                           <div class="textthree"><span> 
+                               It was popularised in the 1960 with the realse of letreast sheet containing lorem ipsum passage , and more
+                               resently with disktop pubblishing softwaere like aldus pagemaker including version ipsum.
+                           </span></div>
+                           </div>
+
+            
+                    </div>
+
+                    <div class="divfour">
+                        
+                     <div class="headertow"> <span class="highlight">  Biography  </span></div>
+                          
+                        <div class="inside">
+                        <div> <label> Angular Js </label></div>
+                        <div class="ratio"><span> 60%</span></div>
+                        <div class="progressbar"></div>
+                        <br/>
+                        <div> <label> Javascript </label></div>
+                     <div class="ratio"><span> 90%</span></div>
+                     <br/>
+                     <div class="progressbar"></div>
+                        <div> <label> Wordpress </label></div>
+                        <div class="ratio"><span> 80%</span></div>
+                        <br/>
+                        <div class="progressbar"></div>
+                        <div> <label> HTML5&CSS3 </label></div>
+                        <div class="ratio"><span> 95%</span></div>
+                        <br/>
+                        <div class="progressbar"></div>
+                        
+                        
+                       </div>
+                    </div >
+                    </div>
+                </div>
+                
+
+            
+
+            <div id="Projects" style="display: none;">
+                
+    <div class="divproject">
+        <div class="headertow">
+            <span class="highlight">MY PROJECTS</span>
+        </div>
+        
+             <table>
+              <tr>
+                <th class="th">#</th>
+                <th>Project Name</th>
+                <th>Start Date</th>
+                <th>Due Date</th>
+                <th>Assign</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Moltran Admin</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Moltran Frontend</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Moltran Admin</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>
+              </tr>
+              
+            </table>
+            
+        </div>
+            </div>
+                
+            <div id="Settins" style="display: none;">
+                <div  class="editpage">
+                    <div class="headertow"> <span class="highlight">  EDITPROFILE </span></div>
+                   
+                    <div class="Diiv">
+                        <span class="textstyle">Name</span> </div>
+                        <div class="TextConatiner" >
+                            <input type="text" class="texxtbox"/>
+                        </div>
+                    
+                    
+                    
+                        
+                    <div class="Diiv"> <span class="textstyle">Email</span> </div>
+                    <div class="TextConatiner">
+                     <input type="text" class="texxtbox"></div>
+                    
+                    
+                     <div class="Diiv"><span class="textstyle"> Username</spam></div>
+                        <div class="TextConatiner"> <input type="text" class="texxtbox"></div>
+                        
+                    
+                            
+                        
+                        
+                            
+                        <div class="Diiv"> <span class="textstyle">Password</span> </div>
+                        <div class="TextConatiner">
+                         <input type="text" class="texxtbox"></div>
+                        
+                        
+                         <div class="Diiv"><span class="textstyle"> Re-Password</spam></div>
+                            <div class="TextConatiner"> <input type="text" class="texxtbox"></div>
+                            
+                            
+                            
+                                
+                            <div class="Diiv"> <span class="textstyle">About Me</span> </div>
+                            <div class="TextConatiner">
+                             <input type="text" class="texxtboxAboutMe"></div>
+
+                             <div class="divbutton">
+
+                            
+                                 <button class="savechange"> Save Change</button>
+                                
+                                </div>
+        
+    
+                                
+
+
+                </div>
+
+
+        
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+         
+
+                    
+                
+
+             
+    
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
